@@ -13,6 +13,7 @@ import io.github.bonigarcia.wdm.WebDriverManager;
 public class BaseClass1 {
 	
 	static ExtentHtmlReporter htmlReporter;
+	
 	static ExtentReports report;
 	static ExtentTest test;
  public static WebDriver getwebdriver(String browser) {
